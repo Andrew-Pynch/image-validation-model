@@ -30,8 +30,6 @@ def home():
 
 # Writing api for inference using the loaded model
 @application.route("/predict", methods=["POST"])
-
-# Predict method that uses the trained model to predict the kind of bear in the picture we uploaded
 def predict():
 
     # labels = ['grizzly','black','teddy']
